@@ -36,6 +36,10 @@ local config = {
             module = "tsht",
             after = "nvim-treesitter",
         },
+        {
+            "~/neovim_plugins/colorscheme_switcher/",
+            module = { "colorscheme_switcher" },
+        },
     },
 }
 return config
